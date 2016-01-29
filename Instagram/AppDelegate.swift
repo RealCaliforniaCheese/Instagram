@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Instagram
 //
-//  Created by Che Chao Hsu on 1/21/16.
+//  Created by Che Chao Hsu and on 1/21/16.
 //  Copyright © 2016 Che Chao Hsu. All rights reserved.
 //
 

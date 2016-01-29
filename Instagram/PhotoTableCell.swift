@@ -1,5 +1,5 @@
 //
-//  PhotoCell.swift
+//  PhotoTableCell.swift
 //  Instagram
 //
 //  Created by Che Chao Hsu on 1/21/16.
@@ -8,8 +8,10 @@
 
 import UIKit
 
-class PhotoCell: UITableViewCell {
+class PhotoTableCell: UITableViewCell {
 
+    @IBOutlet weak var photoView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
