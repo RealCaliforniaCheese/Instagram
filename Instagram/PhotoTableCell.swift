@@ -2,8 +2,8 @@
 //  PhotoTableCell.swift
 //  Instagram
 //
-//  Created by Che Chao Hsu on 1/21/16.
-//  Copyright © 2016 Che Chao Hsu. All rights reserved.
+//  Created by Kate Suttner with Che Chao Hsu on 1/21/16.
+//  Copyright © 2016 Kate Suttner and Che Chao Hsu. All rights reserved.
 //
 
 import UIKit

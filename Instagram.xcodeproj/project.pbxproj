@@ -14,6 +14,7 @@
 		A8393D421C51DAD600FEFF1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8393D401C51DAD600FEFF1E /* LaunchScreen.storyboard */; };
 		A8393D4C1C51E44E00FEFF1E /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8393D4B1C51E44E00FEFF1E /* PhotosViewController.swift */; };
 		A8393D4E1C51EE9A00FEFF1E /* PhotoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8393D4D1C51EE9A00FEFF1E /* PhotoTableCell.swift */; };
+		A8538A0C1C5D5B74003F6386 /* PhotosDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8538A0B1C5D5B74003F6386 /* PhotosDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A8393D431C51DAD600FEFF1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8393D4B1C51E44E00FEFF1E /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		A8393D4D1C51EE9A00FEFF1E /* PhotoTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTableCell.swift; sourceTree = "<group>"; };
+		A8538A0B1C5D5B74003F6386 /* PhotosDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosDetailViewController.swift; sourceTree = "<group>"; };
 		DBEC8EC8686ABC881D6DA2CE /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
 		EFB781EF11B172F4265CC197 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,15 +82,32 @@
 		A8393D361C51DAD600FEFF1E /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				A8538A0D1C5EAC76003F6386 /* View Controllers */,
+				A8538A0E1C5EACB3003F6386 /* Views */,
 				A8393D371C51DAD600FEFF1E /* AppDelegate.swift */,
 				A8393D3B1C51DAD600FEFF1E /* Main.storyboard */,
 				A8393D3E1C51DAD600FEFF1E /* Assets.xcassets */,
 				A8393D401C51DAD600FEFF1E /* LaunchScreen.storyboard */,
 				A8393D431C51DAD600FEFF1E /* Info.plist */,
-				A8393D4B1C51E44E00FEFF1E /* PhotosViewController.swift */,
-				A8393D4D1C51EE9A00FEFF1E /* PhotoTableCell.swift */,
 			);
 			path = Instagram;
+			sourceTree = "<group>";
+		};
+		A8538A0D1C5EAC76003F6386 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8393D4B1C51E44E00FEFF1E /* PhotosViewController.swift */,
+				A8538A0B1C5D5B74003F6386 /* PhotosDetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		A8538A0E1C5EACB3003F6386 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A8393D4D1C51EE9A00FEFF1E /* PhotoTableCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8538A0C1C5D5B74003F6386 /* PhotosDetailViewController.swift in Sources */,
 				A8393D381C51DAD600FEFF1E /* AppDelegate.swift in Sources */,
 				A8393D4E1C51EE9A00FEFF1E /* PhotoTableCell.swift in Sources */,
 				A8393D4C1C51E44E00FEFF1E /* PhotosViewController.swift in Sources */,
